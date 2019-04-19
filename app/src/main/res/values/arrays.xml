@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="kotakota">
+        <item>SD</item>
+        <item>SMP</item>
+        <item>SMA</item>
+        <item>S1</item>
+        <item>S2</item>
+        <item>S3</item>
+
+
+    </string-array>
+</resources>

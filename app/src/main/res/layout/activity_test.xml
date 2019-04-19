@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pages.TestActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Big Text"
+        android:textColor="@color/warnamerah"
+        android:textSize="100sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Medium Text"
+        android:textColor="#00ff00"
+        android:textSize="70sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Small Text"
+        android:textColor="#0000ff"
+        android:textSize="50sp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Masuk"
+        android:id="@+id/masuk"
+        style="@style/Base.TextAppearance.AppCompat.Widget.Button.Colored"
+        android:textSize="30sp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:textColorHint="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukan Username"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="android"
+        android:textSize="30sp"/>
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Android"
+        android:textSize="20sp"/>
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AndroidMobile"
+        android:textSize="20sp"/>
+    </RadioGroup>
+    <Spinner
+        android:spinnerMode="dropdown"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/kotakota">
+
+    </Spinner>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/walpaperr"/>
+
+</LinearLayout>
